@@ -7,14 +7,14 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL||""                       // put your app url here,
-global.email="samsamsun789@gmail.com"
-global.location="Lahore,Punjab,Pakistan"
+global.email="yegoedwin254@gmail.com"
+global.location="Nairobi/Kenya"
 global.mongodb= process.env.MONGODB_URI || ""
 global.DATABASE_URI=process.env.DATABASE_URL
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Nairobi,Kenya";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
 global.gurl = process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
 global.website =process.env.GURL|| "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
@@ -31,26 +31,26 @@ global.style = process.env.STYLE || "5",  // put '1' to "5" here to check bot st
 
 
 
-global.devs = "923184474176" // Developer Conatact
+global.devs = "254705677688" // Developer Conatact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254705677688";
 
 module.exports = {
 
-  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Yego, 2: Yego254, 3: DrYego Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
   //style:process.env.STYLE|| "2",  // put '1' & "2" here to check bot styles
 
 
   HANDLERS:process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH  || "main",
   VERSION:process.env.VERSION || "v.1.2.7-qr",
-  caption:process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption:process.env.CAPTION || ""
 
  
-  author: process.env.PACK_AUTHER || "Suhail-MD",
+  author: process.env.PACK_AUTHER || "Yego",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "Yego",
+  ownername:process.env.OWNER_NAME|| "It's Yego",
 
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
@@ -68,7 +68,7 @@ readmessage:process.env.READ_MESSAGE|| "false",
  
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY|| "",
-  read_status: process.env.AUTO_READ_STATUS || "false",
+  read_status: process.env.AUTO_READ_STATUS || "true",
   save_status: process.env.AUTO_SAVE_STATUS || "false",
 
 
@@ -80,7 +80,7 @@ readmessage:process.env.READ_MESSAGE|| "false",
 
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SUHAIL",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "YEGO",
 
 };
 
